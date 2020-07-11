@@ -35,7 +35,6 @@ class Controller{
   _calculateFeeValue(){
 
     var value = paymentSlip.feeValue;
-
     if(paymentSlip.feeType == Constantes.rateLabels[1]){
       value = paymentSlip.feeValue / 100.0 * paymentSlip.money;
     }

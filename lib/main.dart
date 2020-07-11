@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     ]);
     return MaterialApp(
       title: "Calculadora de Juros",
-      theme: ThemeData(primarySwatch: Colors.deepPurple),
+      theme: ThemeData(primarySwatch: Colors.deepPurple, canvasColor: Colors.deepPurple,),
       debugShowCheckedModeBanner: false,
       home: CalculatorPage(),
       localizationsDelegates: [
